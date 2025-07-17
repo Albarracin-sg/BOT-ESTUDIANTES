@@ -1,0 +1,25 @@
+{
+  "name": "bot-estudiantes",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.19",
+    "@types/eventsource": "^3.0.0",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.14",
+    "tsx": "^4.20.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.56.0",
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "cors": "^2.8.5",
+    "eventsource": "^4.0.0",
+    "express": "^5.1.0",
+    "zod": "^4.0.5"
+  }
+}
