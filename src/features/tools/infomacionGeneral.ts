@@ -1,9 +1,9 @@
 import { z } from "zod";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 
-export function infomacionGeneral (server: McpServer) {
+export function infomacionGeneral(server: McpServer) {
   server.tool(
-    "*Nombre de la tool*",
+    "infomacionGeneral",
     `
         *Descripción de la tool*
         `,
@@ -21,4 +21,3 @@ export function infomacionGeneral (server: McpServer) {
     }
   );
 }
-

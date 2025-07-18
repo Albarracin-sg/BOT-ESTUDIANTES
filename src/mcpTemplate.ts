@@ -24,8 +24,7 @@ import cors from "cors";
 
 const PORT = process.env.PORT || 3000;
 
-// Inicializamos el servidor MCP y registramos todas las herramientas una única vez
-// al inicio de la aplicación, usando una IIFE (Immediately Invoked Function Expression).
+
 const mcpServer = (() => {
   const server = new McpServer(
     {
@@ -79,7 +78,7 @@ const mcpServer = (() => {
 
   console.log("🔧 Servidor MCP compatible configurado con herramientas de compatibilidad");
   return server;
-})(); // La IIFE se ejecuta inmediatamente y su resultado se asigna a mcpServer
+})();
 
 const app = express();
 app.use(express.json());

@@ -3,7 +3,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 
 export function Agente_Incapacidades (server: McpServer) {
   server.tool(
-    "*Nombre de la tool*",
+    "Agente_Incapacidades",
     `
         *Descripción de la tool*
         `,

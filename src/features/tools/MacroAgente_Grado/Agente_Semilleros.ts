@@ -3,7 +3,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 
 export function Agente_Semilleros(server: McpServer) {
   server.tool(
-    "*Nombre de la tool*",
+    "Agente_Semilleros",
     `
         *Descripción de la tool*
         `,

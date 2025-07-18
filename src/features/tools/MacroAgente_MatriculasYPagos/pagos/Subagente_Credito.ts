@@ -5,7 +5,7 @@ export function Subagente_Credito(server: McpServer) {
   server.tool(
     "*Nombre de la tool*",
     `
-        *Descripción de la tool*
+        *Subagente_Credito*
         `,
     async () => {
       return {

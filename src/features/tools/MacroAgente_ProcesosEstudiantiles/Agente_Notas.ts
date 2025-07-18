@@ -3,7 +3,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 
 export function Agente_Notas(server: McpServer) {
   server.tool(
-    "*Nombre de la tool*",
+    "Agente_Notas",
     `
         *Descripción de la tool*
         `,

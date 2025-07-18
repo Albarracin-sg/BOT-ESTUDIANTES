@@ -3,7 +3,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 
 export function Agente_Reintegro (server: McpServer) {
   server.tool(
-    "*Nombre de la tool*",
+    "Agente_Reintegro",
     `
         *Descripción de la tool*
         `,

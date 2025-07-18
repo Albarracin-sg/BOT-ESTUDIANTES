@@ -3,7 +3,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 
 export function Subagente_Bachillerato(server: McpServer) {
   server.tool(
-    "*Nombre de la tool*",
+    "Subagente_Bachillerato",
     `
         *Descripción de la tool*
         `,

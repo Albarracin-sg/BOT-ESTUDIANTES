@@ -3,7 +3,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 
 export function Agente_RepetirAsignatura (server: McpServer) {
   server.tool(
-    "*Nombre de la tool*",
+    "Agente_RepetirAsignatura",
     `
         *Descripción de la tool*
         `,
