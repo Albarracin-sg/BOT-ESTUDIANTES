@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 
-export function Subagente_EstadoFinanciero(server: McpServer) {
+export function Agente_Semilleros(server: McpServer) {
   server.tool(
     "*Nombre de la tool*",
     `

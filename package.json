@@ -3,6 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "tsx src/mcpTemplate.ts",
+    "inspect": "npx -y @modelcontextprotocol/inspector tsx src/mcpTemplate.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/cors": "^2.8.19",
