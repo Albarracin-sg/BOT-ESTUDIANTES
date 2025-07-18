@@ -1,4 +1,5 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+// Importing the general information tool
 import { infomacionGeneral } from "./features/tools/infomacionGeneral.js";
 
 // Importing the tool templates for the MacroAgente_Grado
